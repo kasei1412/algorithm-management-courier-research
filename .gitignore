@@ -1,0 +1,36 @@
+# Submission and identity-bearing documents
+*.doc
+*.docx
+*.pdf
+
+# Raw survey and statistical package data
+*.csv
+*.sav
+*.xls
+*.xlsx
+*.spv
+*.png
+*.jpg
+
+# Keep curated aggregate workbooks explicitly added under analysis/results.
+!analysis/results/*.xlsx
+!analysis/results/*.png
+
+# Local research workspace and submission materials
+11-12月 选题/
+1月问卷方案设计、预调研、数据收集/
+2月报告/
+初步产出/
+市调大赛+本科组+统计与数据科学学院+林佳彦/
+团队简介以及队员简介/
+正大杯资料/
+十六届正大杯校赛通知/
+2025年第16届市调大赛网考说明及网考模拟题/
+摘要目录分析/
+poster*.png
+
+# Local files
+.venv/
+__pycache__/
+.DS_Store
+Thumbs.db
