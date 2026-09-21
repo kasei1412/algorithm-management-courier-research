@@ -18,11 +18,27 @@
 - 基于标准化因子得分完成骑手群体画像，为差异化治理建议提供依据。
 - 通过交互检验和异质性分析识别不同群体、不同条件下的关系差异。
 
+## 图表速览
+
+### 研究框架
+
+![研究框架](analysis/results/figures/research_framework.png)
+
+### 样本结构与聚类选择
+
+![样本结构](analysis/results/figures/sample_profile.png)
+
+![聚类代价函数](analysis/results/figures/clustering_elbow.png)
+
+### 治理方案
+
+![治理建议框架](analysis/results/figures/governance_framework.png)
+
 ## 代码与结果
 
 ```text
 analysis/notebooks/          # 因子分析与骑手聚类
-analysis/results/            # 回归表、聚类图和研究流程图
+analysis/results/            # 回归表、聚类图、研究框架图和治理方案图
 analysis/README.md           # 变量、方法和复现边界
 ```
 

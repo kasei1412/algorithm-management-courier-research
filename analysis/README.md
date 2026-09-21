@@ -19,6 +19,16 @@
 
 交互检验文件记录了 `N = 542` 的模型结果，多个结果变量的 `R²` 位于 `0.380–0.450` 区间。`F1` 在主要模型中保持正向关联，聚类结果用于补充群体画像和差异化治理解释。
 
+## 图表目录
+
+`results/figures/` 收录了以下展示证据：
+
+- `research_framework.png`：变量关系与分析路径。
+- `sample_profile.png`：样本人口统计与用工类型结构。
+- `clustering_elbow.png`：K-Prototypes 聚类数量选择。
+- `cluster_high_pressure.png`、`cluster_stable_identity.png`、`cluster_transitional.png`：三类骑手画像。
+- `governance_framework.png`、`appeal_process_comparison.png`、`risk_alert_intervention.png`：治理建议与机制设计。
+
 ## 复现边界
 
 Notebook 默认读取本地 `clean.xlsx`。该文件不随仓库提供，运行者应使用经过授权和脱敏的本地数据；仓库仅提供分析代码与聚合结果。
